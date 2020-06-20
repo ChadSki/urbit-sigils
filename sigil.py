@@ -81,8 +81,8 @@ def render_all_syllables():
         p = pre[ii] + pre[ii + 1] + pre[ii + 2]
         s = suf[ii] + suf[ii + 1] + suf[ii + 2]
         print(f'{h} {p} {s}')
-        syl_to_svg(p, f"{h}.{p}.p")
-        syl_to_svg(s, f"{h}.{s}.s")
+        syl_to_svg(p, f"{h}.p.{p}")
+        syl_to_svg(s, f"{h}.s.{s}")
 
 
 render_all_syllables()
