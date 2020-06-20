@@ -47,7 +47,7 @@ with open(r'sigil.json') as f:
 
 def replace_colors(s):
     s = s.replace("@BG", "#FFFFFF")
-    s = s.replace("@FG", "#6184FF")
+    s = s.replace("@FG", "#111111")
     return s
 
 
